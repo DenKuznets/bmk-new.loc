@@ -8,7 +8,7 @@ export default defineConfig({
     },
     build: {
         outDir: "./public_html/build/",
-        cssSourceMap: true,
+        cssSourceMap: true, //это тоже показывать из какого файла взят css , но заработало после добавления верхнего :)
     },
     plugins: [
         laravel({
