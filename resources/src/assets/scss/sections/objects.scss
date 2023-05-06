@@ -1,0 +1,40 @@
+.objects {
+    padding-top: 70px;
+
+    h2 {
+        margin-bottom: 40px;
+    }
+
+    &__cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+
+        @media only screen and (max-width: $px768) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media only screen and (max-width: $px480) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    &__card {
+        &-image {
+            max-width: 370px;
+            height: 250px;
+            filter: drop-shadow(5px 5px 10px rgba(46, 96, 201, 0.25));
+
+            @media only screen and (max-width: $px480) {
+                max-width: unset;
+            }
+
+            img {
+                border-radius: 10px;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
