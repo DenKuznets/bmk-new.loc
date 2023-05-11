@@ -1,1 +1,3 @@
-https://docs.google.com/document/d/1uZzGUXWN027fG6vqnuHLNVkLmfKin3YZvrPmyGc8M6c/edit правки
+1. Ховер текст такой же, как и у кнопки с телефоном
+
+2. Текст на первом экране выравнивать по центру (сверху и снизу одинаковый отступ)

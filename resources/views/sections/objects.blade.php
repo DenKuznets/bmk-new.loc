@@ -5,7 +5,7 @@
 
             <div class="objects__card animate__animated zoomInDown">
                 <div class="objects__card-image">
-                    <img src="{{ asset('assets/img/obj-3.jpg') }}" alt="">
+                    <img src="{{ asset('assets/img/obj-7.jpg') }}" alt="">
                 </div>
             </div>
             <div class="objects__card animate__animated zoomInDown">
