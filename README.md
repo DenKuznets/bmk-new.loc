@@ -1,6 +1,7 @@
 Перед загрузкой на сервер выполнить 
 npm run build
 
+https://bmk78.ru/ - рабочая версия сайта
 
 https://www.behance.net/yamaky - Аня Сорокина, веб-дизайнер 
 
